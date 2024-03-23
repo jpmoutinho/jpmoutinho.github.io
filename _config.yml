@@ -78,6 +78,9 @@ defaults:
       # can be overridden in the front matter for a specific post
       hidden: false
 
+photosurl: "/photos/"
+thumbsurl: "/photos/"
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
