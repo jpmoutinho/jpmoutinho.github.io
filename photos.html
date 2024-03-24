@@ -4,25 +4,3 @@ title: Photos
 ---
 
 {% include photo-gallery.html folder="photos" %}
-
-<!-- <div class="image-grid">
-	{% for image in site.static_files %}
-		{% if image.path contains '/photos/' %}
-			<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-		{% endif %}
-	{% endfor %}
-</div> -->
-
-<!-- <section class="list">
-	{% if site.photos.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% else %}
-		{% for photo in site.photos %}
-			{% if photo.category == 'photography' %}
-				{% if photo.hidden != true %}
-					{% include photography-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-</section> -->
