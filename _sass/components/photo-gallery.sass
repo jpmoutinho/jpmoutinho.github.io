@@ -3,6 +3,7 @@
     width: 100%
     display: grid
     grid-template-columns: repeat(3, minmax(50px, 1fr))
+    grid-template-row
     justify-content: center
     gap: 5px 8px
 
@@ -25,7 +26,7 @@ input[type=checkbox]:checked ~ label > img
 
 .single-photo
     width: 100%
-    aspect-ratio: 1
+    aspect-ratio: auto
     object-fit: cover
     transition: all 0.1s ease-in-out
     &:hover
