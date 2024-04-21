@@ -1,34 +1,18 @@
 .photo-gallery
-    margin-top: 10px
-    width: 100%
-    display: grid
-    grid-template-columns: repeat(3, minmax(50px, 1fr))
-    justify-content: center
-    gap: 5px 8px
+    margin: auto
+    width: 85%
+    margin-top: 20px
+    display: flex
+    flex-wrap: wrap
+    gap: 10px
 
-input[type=checkbox]
-    display: none
-
-.box
-    flex-basis: 25%
-    width: 100%
-    padding: 0px
-    margin: 0px
-
-.box img
-    transition: transform 0.1s ease
-    cursor: zoom-in
-
-input[type=checkbox]:checked ~ label > img
-    transform: scale(2)
-    cursor: zoom-out
-
-.single-photo
-    width: 100%
-    aspect-ratio: auto
+.single-image
+    flex: 1 1 auto
+    height: 500px
     object-fit: cover
-    transition: all 0.1s ease-in-out
+
+    transition: transform 0.2s ease
+
     &:hover
-        box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15)
         opacity: 1.0
         transform: scale(0.99)
