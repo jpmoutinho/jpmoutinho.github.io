@@ -6,9 +6,13 @@
     flex-wrap: wrap
     gap: 10px
 
+.photo-gallery::after
+    content: ""
+    flex-grow: 999
+
 .single-image
     flex: 1 1 auto
-    height: 500px
+    height: 400px
     object-fit: cover
 
     transition: transform 0.2s ease
@@ -16,3 +20,6 @@
     &:hover
         opacity: 1.0
         transform: scale(0.99)
+
+
+// https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
