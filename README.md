@@ -2,6 +2,12 @@
 
 In development.
 
+Local build:
+
+```bash
+bundle exec jekyll serve
+```
+
 ---
 ## Template
 
