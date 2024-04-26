@@ -4,7 +4,7 @@
     flex-flow: column wrap
     align-content: space-between
 
-    height: 17000px
+    height: 16000px
 
     &::before, &::after
         content: ""
@@ -15,6 +15,7 @@
 .single-image
     width: 49%
     margin-top: 1.2%
+    border-radius: 0
 
     transition: transform 0.2s ease
 
@@ -31,53 +32,7 @@
 
     &:nth-child(2n)
         order: 2
-    
-
-.photo-gallery-backup
-    margin: auto
-    margin-top: 5px
-    width: 90%
-    column-count: 2
-    -webkit-column-count: 2
-    -moz-column-count: 2
-    column-gap: 10px
-
-.single-image-backup
-    margin-top: 5px
-    object-fit: cover
-
-    transition: transform 0.2s ease
-
-    &:hover
-        opacity: 1.0
-        transform: scale(0.99)
 
 
 // https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
 // https://stackoverflow.com/questions/14925157/css-columns-with-left-right-flow
-
-
-
-
-.photo-gallery-backup
-    margin: auto
-    width: 90%
-    margin-top: 10px
-    display: flex
-    flex-wrap: wrap
-    gap: 10px
-
-.photo-gallery-backup::after
-    content: ""
-    flex-grow: 999
-
-.single-image-backup
-    flex: 1 1 auto
-    height: 400px
-    object-fit: cover
-
-    transition: transform 0.2s ease
-
-    &:hover
-        opacity: 1.0
-        transform: scale(0.99)
