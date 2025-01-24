@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # false to light theme, auto to switch with system.
 dark-theme: false
 
-url: https://jpmoutinho.github.io/
+url: https://jpmoutinho.github.io
 
 permalink: /:title/
 
@@ -47,7 +47,7 @@ width: large
 # projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 photos: true
 
 # do you want to show the "read time" of the posts?
