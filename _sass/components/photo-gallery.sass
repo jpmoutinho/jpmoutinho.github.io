@@ -14,9 +14,25 @@
         width: 0
         order: 2
 
+.photo-gallery-bw
+    width: 100%
+    display: flex
+    flex-flow: column wrap
+    align-content: space-around
+    aspect-ratio: 0.115
+
+    @media (max-width: 810px)
+        aspect-ratio: auto
+
+    &::before, &::after
+        content: ""
+        flex-basis: 100%
+        width: 0
+        order: 2
+
 .single-image
-    width: 48.5%
-    margin-top: 2.0%
+    width: 49%
+    margin-top: 1.4%
     border-radius: 0
 
     transition: transform 0.2s ease

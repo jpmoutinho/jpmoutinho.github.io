@@ -7,18 +7,25 @@
             <a class="link" href="{{ site.url }}/"><u>Home</u></a>
             {% endif %}
         </li>
-        <li class="item">
+        <!-- <li class="item">
             {% if page.title != "About" %}
             <a class="link" href="{{ site.url }}/about">About</a>
             {% else %}
             <a class="link" href="{{ site.url }}/about"><u>About</u></a>
             {% endif %}
+        </li> -->
+        <li class="item">
+            {% if page.title != "Color Photos" %}
+            <a class="link" href="{{ site.url }}/color_photos">Color</a>
+            {% else %}
+            <a class="link" href="{{ site.url }}/color_photos"><u>Color</u></a>
+            {% endif %}
         </li>
         <li class="item">
-            {% if page.title != "Photos" %}
-            <a class="link" href="{{ site.url }}/photos">Photos</a>
+            {% if page.title != "BW Photos" %}
+            <a class="link" href="{{ site.url }}/bw_photos">B&W</a>
             {% else %}
-            <a class="link" href="{{ site.url }}/photos"><u>Photos</u></a>
+            <a class="link" href="{{ site.url }}/bw_photos"><u>B&W</u></a>
             {% endif %}
         </li>
     </ul>

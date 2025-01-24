@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: false
 
 url: https://jpmoutinho.github.io/
 
@@ -78,8 +78,9 @@ defaults:
       # can be overridden in the front matter for a specific post
       hidden: false
 
-photosurl: "/photos/"
-thumbsurl: "/photos/"
+photosurl: "/color_photos/"
+thumbsurl: "/color_photos/"
+thumbsurlbw: "/bw_photos/"
 
 plugins:
   - jekyll-seo-tag
