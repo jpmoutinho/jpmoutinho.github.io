@@ -1,6 +1,6 @@
 ## Personal webpage
 
-In development.
+The page in this repository is not being used. Checkout jpmoutinho.com for my current personal website.
 
 Local build:
 
